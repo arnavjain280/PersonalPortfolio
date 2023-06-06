@@ -118,7 +118,7 @@ import {
     {
       title: "Undergraduate Research Assistant",
       company_name: "Peleg Lab",
-      icon: peleglab,
+      icon: web,
       date: "Aug 2022 - Dec 2022",
       points: [
         "Collaborated with senior researcher to perform a behavioral assay on M. pudica plants.",
@@ -173,7 +173,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: stockprediction,
+      image: figma,
       source_code_link: "https://github.com/",
     },
     {
@@ -194,7 +194,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: aichatbot,
+      image: figma,
       source_code_link: "https://github.com/",
     },
     {
@@ -215,7 +215,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: wefit,
+      image: figma,
       source_code_link: "https://github.com/",
     },
     {
@@ -236,7 +236,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: buffcoin,
+      image: figma,
       source_code_link: "https://github.com/",
     },
   ];
