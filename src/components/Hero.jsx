@@ -29,9 +29,9 @@ const Hero = () => {
         <div className='flex flex-col justify-center items-center mt-5'>
           {/* <div className='w-5 h-5 rounded-full bg-[#915EFF]' />
           <div className='w-1 sm:h-80 h-40 violet-gradient animate-pulse' /> */}
-          <div className='w-5 h-5 rounded-full bg-[#915EFF] animate-bounce'>
+          <div className='w-5 h-5 rounded-full bg-[#A60E43] animate-bounce'>
           </div>
-          <div className='w-1 sm:h-80 h-40 violet-gradient animate-pulse hover:scale-105 transition-all duration-300 ease-in-out'>
+          <div className='w-1 sm:h-80 h-40 bg-custom-gray animate-pulse hover:scale-105 transition-all duration-300 ease-in-out'>
           </div>
 
 
@@ -39,7 +39,7 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className='text-[#915EFF]'>Arnav</span>
+            Hi, I'm <span className='text-[#A60E43]'>Arnav</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             CS @ CU Boulder <br className='sm:block hidden' />
