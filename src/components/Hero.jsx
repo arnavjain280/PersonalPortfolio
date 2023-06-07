@@ -1,6 +1,8 @@
-import {motion} from 'framer-motion';
-import {styles} from '../styles';
+import { motion } from 'framer-motion';
+import { styles } from '../styles';
 import { ComputersCanvas } from './canvas';
+// import ReactTooltip from 'react-tooltip';
+
 // import {BirdAnimation} from './canvas';
 
 // const Hero = () => {
@@ -28,9 +30,9 @@ const Hero = () => {
           {/* <div className='w-5 h-5 rounded-full bg-[#915EFF]' />
           <div className='w-1 sm:h-80 h-40 violet-gradient animate-pulse' /> */}
           <div className='w-5 h-5 rounded-full bg-[#915EFF] animate-bounce'>
-</div>
-<div className='w-1 sm:h-80 h-40 violet-gradient animate-pulse hover:scale-105 transition-all duration-300 ease-in-out'>
-</div>
+          </div>
+          <div className='w-1 sm:h-80 h-40 violet-gradient animate-pulse hover:scale-105 transition-all duration-300 ease-in-out'>
+          </div>
 
 
         </div>
@@ -47,9 +49,28 @@ const Hero = () => {
       </div>
 
       <ComputersCanvas />
-      
+      <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
+        <a href='#about' title="Scroll Down">
+          <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2 transition-transform duration-300 hover:scale-110'>
+            <motion.div
+              whileHover={{ scale: 1.2 }}
+              whileTap={{ scale: 0.8 }}
+              animate={{
+                y: [0, 24, 0],
+              }}
+              transition={{
+                duration: 1.5,
+                repeat: Infinity,
+                repeatType: "loop",
+              }}
+              className='w-3 h-3 rounded-full bg-secondary mb-1'
+            />
+          </div>
+        </a>
+      </div>
 
-      
+
+
     </section>
   );
 };
