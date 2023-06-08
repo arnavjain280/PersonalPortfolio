@@ -42,7 +42,7 @@ import {
   
   const services = [
     {
-      title: "Computer Science Student",
+      title: "Web Developer",
       icon: web,
     },
     {
