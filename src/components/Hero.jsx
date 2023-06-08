@@ -31,7 +31,7 @@ const Hero = () => {
           <div className='w-1 sm:h-80 h-40 violet-gradient animate-pulse' /> */}
           <div className='w-5 h-5 rounded-full bg-[#A60E43] animate-bounce'>
           </div>
-          <div className='w-1 sm:h-80 h-40 bg-custom-gray animate-pulse hover:scale-105 transition-all duration-300 ease-in-out'>
+          <div className='w-1 sm:h-80 h-40 bg-custom-gray hover:scale-105 transition-all duration-300 ease-in-out'>
           </div>
 
 
