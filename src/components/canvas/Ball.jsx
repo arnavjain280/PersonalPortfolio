@@ -1,7 +1,6 @@
-
-
-import React, { useState } from 'react';
+import React, { useState, Suspense } from 'react';
 import Tilt from 'react-parallax-tilt';
+import CanvasLoader from "../Loader";
 import "../../index.css";
 
 function BallCanvas({ icon, name, tooltipText }) {
@@ -28,16 +27,18 @@ function BallCanvas({ icon, name, tooltipText }) {
           {tooltipText}
         </div>
       }
-      <Tilt
-        options={{
-          max: 45,
-          scale: 1,
-          speed: 150,
-        }}
-        className='w-[100px] h-[100px] rounded-full bg-[#333333bb] p-4 ball_card glow'
-      >
-        <img src={icon} alt={name} className="w-full h-full object-cover" />
-      </Tilt>
+      <Suspense fallback={<CanvasLoader />}>
+        <Tilt
+          options={{
+            max: 45,
+            scale: 1,
+            speed: 150,
+          }}
+          className='w-[100px] h-[100px] rounded-full bg-[#333333bb] p-4 ball_card glow'
+        >
+          <img src={icon} alt={name} className="w-full h-full object-cover" />
+        </Tilt>
+      </Suspense>
     </div>
   );
 }
