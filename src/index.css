@@ -12,6 +12,11 @@
   scroll-behavior: smooth;
   color-scheme: dark;
 }
+.glow {
+  box-shadow: 0 0 5px #ffe4c4, 0 0 10px #ffe4c4, 0 0 15px #ffe4c4;
+}
+
+
 
 .hash-span {
   margin-top: -100px;
