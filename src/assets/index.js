@@ -3,6 +3,10 @@ import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
+import stock from "./stock.png";
+import buffcoin from "./buffcoin.png";
+import wefit from "./wefit.png";
+
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -42,6 +46,8 @@ export {
   close,
   css,
   docker,
+  buffcoin,
+  wefit,
   figma,
   git,
   python,
@@ -49,6 +55,7 @@ export {
   javascript,
   mongodb,
   nodejs,
+  stock,
   reactjs,
   redux,
   tailwind,

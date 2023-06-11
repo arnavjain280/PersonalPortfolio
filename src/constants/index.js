@@ -10,12 +10,15 @@ import {
     css,
     reactjs,
     redux,
+    buffcoin,
+    wefit,
     tailwind,
     nodejs,
     mongodb,
     git,
     python,
     figma,
+    stock,
     docker,
     meta,
     starbucks,
@@ -33,7 +36,7 @@ import {
       title: "About",
     },
     {
-      id: "projects",
+      id: "Projects",
       title: "Projects",
     },
     {
@@ -55,10 +58,6 @@ import {
       title: "Machine Learning Enthusiast",
       icon: backend,
     },
-    // {
-    //   title: "Content Creator",
-    //   icon: creator,
-    // },
   ];
   
   const technologies = [
@@ -175,30 +174,30 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: figma,
+      image: stock,
       source_code_link: "https://github.com/",
     },
-    {
-      name: "AI Chatbot using Web Speech API, Node.js, and API.ai",
-      description:
-        "Developed an AI chatbot that leverages the Web Speech API, Node.js, and API.ai to provide users with an interactive and conversational experience.",
-      tags: [
-        {
-          name: "Node.js",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Web Speech API",
-          color: "green-text-gradient",
-        },
-        {
-          name: "API.ai",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: figma,
-      source_code_link: "https://github.com/",
-    },
+    // {
+    //   name: "AI Chatbot using Web Speech API, Node.js, and API.ai",
+    //   description:
+    //     "Developed an AI chatbot that leverages the Web Speech API, Node.js, and API.ai to provide users with an interactive and conversational experience.",
+    //   tags: [
+    //     {
+    //       name: "Node.js",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "Web Speech API",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "API.ai",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: figma,
+    //   source_code_link: "https://github.com/",
+    // },
     {
       name: "WeFit! Project",
       description:
@@ -217,7 +216,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: figma,
+      image: wefit,
       source_code_link: "https://github.com/",
     },
     {
@@ -238,7 +237,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: figma,
+      image: buffcoin,
       source_code_link: "https://github.com/",
     },
   ];
