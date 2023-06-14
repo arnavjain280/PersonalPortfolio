@@ -140,7 +140,7 @@ import {
     {
       title: "Undergraduate Research Assistant",
       company_name: "Peleg Lab",
-      icon: python,
+      icon: mobile,
       date: "Aug 2022 - Dec 2022",
       points: [
         "Collaborated with senior researcher to perform a behavioral assay on M. pudica plants.",
