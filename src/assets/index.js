@@ -26,6 +26,14 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
+import c from "./tech/c++.png";
+import c2 from "./tech/c.png";
+import numpy from "./tech/numpy.png";
+import java from "./tech/java.png";
+import postgresql from "./tech/postgresql.png";
+
+
+
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
@@ -39,6 +47,11 @@ export {
   logo,
   backend,
   creator,
+  c,
+  c2,
+  java,
+  numpy,
+  postgresql,
   mobile,
   web,
   github,
