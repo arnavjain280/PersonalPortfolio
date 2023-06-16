@@ -38,7 +38,7 @@ const Contact = () => {
           </div>
           <div className="flex flex-col">
             <span className="text-pink-500 font-medium mb-4">
-              Email me at
+              Email
             </span>
             <a
 
@@ -47,6 +47,7 @@ const Contact = () => {
               arnav.jain823@gmail.com
             </a>
           </div>
+          
         </div>
       </motion.div>
 

@@ -83,12 +83,12 @@ const Works = () => {
       <div className='w-full flex'>
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px] text-center'
+          className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] mx-auto text-center'  
         >
           
-          These are some of my projects I have worked on that showcase my skills and experiecne 
-          with real-world applications of what I have learned both in school and out. 
-          These show my ability to solve complex problems, work with different technologies,
+          These are some of projects I have worked on that showcase my skills and experience 
+          with real-world applications. 
+          These show my ability to solve complex problems and work with different technologies.
         </motion.p>
       </div>
 
