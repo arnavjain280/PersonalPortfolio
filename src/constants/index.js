@@ -147,6 +147,16 @@ import {
         "Measured the plants folding responses change with varying stimuli intensity, duration, and frequency by leveraging Python, MATLAB, and image processing.",
       ],
     },
+    {
+      title: "Data Structures Course Assistant",
+      company_name: "University of Colorado at Boulder",
+      icon: mobile,
+      date: "Aug 2023 - Dec 2023",
+      points: [
+        "Facilitated weekly office hours to provide one-on-one instruction and clarify complex concepts, resulting in an increase in student understanding of data structures",
+      ],
+    },
+    
   ];
   
   const testimonials = [
