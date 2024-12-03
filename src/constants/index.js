@@ -137,14 +137,17 @@ import {
   ];
   
   const experiences = [
+    
     {
-      title: "Undergraduate Research Assistant",
-      company_name: "Peleg Lab",
+      title: "Data Science Intern ",
+      company_name: "Boeing Digital Aviation Solutions ",
       icon: mobile,
-      date: "Aug 2022 - Dec 2022",
+      date: "May 2024 - Present",
       points: [
-        "Collaborated with senior researcher to perform a behavioral assay on M. pudica plants.",
-        "Measured the plants folding responses change with varying stimuli intensity, duration, and frequency by leveraging Python, MATLAB, and image processing.",
+        "Engineered complex data pipelines in Dataiku and Databricks using Python to integrate weather and flight data, developing automated models that predict flight diversions based on real-time weather conditions, while optimizing large-scale data processing for efficiency.",
+        "Designed and deployed advanced visualizations to analyze the impact of wind speed and visibility on flight diversions, presenting key insights through intuitive dashboards and enabling real-time decision-making.",
+        "Automated security vulnerability reporting by integrating Rapid7 and AWS SecurityHub into data pipelines, enabling real-time insights and reducing response times to critical exploits, while optimizing Python scripts for seamless data ingestion into PostgreSQL.",
+        "Developed interactive dashboards in Power BI and Tableau, visualizing high-priority vulnerabilities and ransomware threats, driving actionable remediation strategies and enhancing cross-functional team collaboration for improved security posture.",
       ],
     },
     {
@@ -154,6 +157,16 @@ import {
       date: "Aug 2023 - Dec 2023",
       points: [
         "Facilitated weekly office hours to provide one-on-one instruction and clarify complex concepts, resulting in an increase in student understanding of data structures",
+      ],
+    },
+    {
+      title: "Undergraduate Research Intern",
+      company_name: "Peleg Lab",
+      icon: mobile,
+      date: "Aug 2022 - Dec 2022",
+      points: [
+        "Collaborated with senior researcher to perform a behavioral assay on M. pudica plants grown in the lab to test the hypothesis that these plants can modulate their folding responses when presented with repeated stimulation.",
+        "Leveraged Python and MATLAB for data collection and analysis/visualization, quantifying changes in plants' folding responses under varied stimuli intensity, duration, and frequency. This precise measurement facilitated the discovery of critical plant behavior trends and patterns.",
       ],
     },
     
